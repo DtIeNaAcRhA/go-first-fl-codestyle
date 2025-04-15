@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-// уровень
+// для расчёта уровня урона,блокировки,суперсилы
 func randint(min, max int) int {
 	return rand.Intn(max-min) + min
 }
